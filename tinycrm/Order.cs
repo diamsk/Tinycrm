@@ -10,4 +10,6 @@ namespace tinycrm
         public string DeliveryAddress { get; set; }
         public string TotalAmount { get; set; }
     }
+
+    
 }

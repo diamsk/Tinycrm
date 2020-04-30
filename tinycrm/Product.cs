@@ -11,5 +11,11 @@ namespace tinycrm
         public string Name { get; set; }
         public decimal Price { get; private set; }
 
+        public Product(decimal randomPrice)
+        {
+            
+            Price = randomPrice;
+        }
+
     }
 }
